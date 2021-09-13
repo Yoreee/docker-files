@@ -1,0 +1,8 @@
+services:
+  dev:
+    image: "rust:1.54"
+    volumes:
+      - ./projects:/projects
+    environment:
+      - USER=root
+
